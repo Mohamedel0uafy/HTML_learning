@@ -1,0 +1,82 @@
+.item2{
+    border : 1px solid black;
+    height : 70px;
+    overflow: scroll;
+}
+
+
+
+.box1{
+    width:100px;
+    height:100px;
+    background-color: lightsalmon;
+    position: relative;
+    /* position:absolute; */
+    top : 10px;
+    left:20px;
+
+}
+
+.box2{
+    width:50px;
+    height: 50px;
+    background-color: red;
+}
+
+.box3{
+    width:30px;
+    height:30px;
+    background-color: yellow;
+    position:absolute;
+    top:20%;
+}
+
+.box4{
+    width:50px;
+    height: 50px;
+    background-color: black;
+    position:sticky;
+    left:50%;
+}
+
+.image_div{
+    background-image: url(../images/free-nature-images.jpg);
+    background-size: cover;
+}
+
+#name::first-letter{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.paragraphe::first-line{
+    background-color: lightcoral;
+}
+.paragraphe::selection{
+    background-color: lightyellow;
+}
+#apple::after{
+      content:"🍎"
+}
+#orange::before{
+    content: "😱😱😱😱";
+}
+
+.pagination a{
+    text-decoration: none;
+    padding: 0 5px;
+}
+.pagination{
+    text-align:center;
+}
+.pagination a:active{
+
+    background-color: lightgreen;
+    font-style: oblique;
+    border-radius: 4px;
+    color:black;
+}
+.pagination a:hover:not(.active){
+    background-color: bisque;
+    text-decoration: dotted;
+}
